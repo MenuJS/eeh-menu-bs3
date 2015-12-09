@@ -34,17 +34,17 @@
 
 <script type="text/ng-template" id="template/eeh-menu-bs3/sidebar-menu-item.html">
     <a ng-if="item.state" ui-sref="{{item.state}}">
-        <span eeh-menu-menu-item-content="item"></span>
+        <span eeh-menu-bs3-menu-item-content="item"></span>
     </a>
     <a ng-if="item.click" ng-click="item.click()">
-        <span eeh-menu-menu-item-content="item"></span>
+        <span eeh-menu-bs3-menu-item-content="item"></span>
     </a>
     <a ng-if="item.href" ng-href="{{item.href}}" target="{{item.target ? item.target : '_self'}}">
-        <span eeh-menu-menu-item-content="item"></span>
+        <span eeh-menu-bs3-menu-item-content="item"></span>
     </a>
     <a ng-if="!item.state && item.hasChildren()"
        ng-click="item.isCollapsed = !item.isCollapsed">
-        <span eeh-menu-menu-item-content="item"></span>
+        <span eeh-menu-bs3-menu-item-content="item"></span>
         <span class="navbar-right sidebar-arrow icon-fw {{ iconBaseClass() }}"
               ng-class="item.isCollapsed ? menuItemCollapsedIconClass : menuItemExpandedIconClass"></span>
     </a>
