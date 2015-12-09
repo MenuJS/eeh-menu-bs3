@@ -1,0 +1,21 @@
+{
+  "name": "eeh-menu-bs3",
+  "homepage": "https://github.com/MenuJS/eeh-menu-bs3",
+  "authors": [
+    "Ethan Hann <ethanhann@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "eeh-navigation": ">=5"
+  }
+}
