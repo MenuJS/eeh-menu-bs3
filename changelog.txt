@@ -1,0 +1,9 @@
+94c0a38 (HEAD, master) Fix demo path in grunt config
+382a847 Fix names and paths in menu item content directive
+df2db53 (tag: 0.1.1, origin/master, origin/HEAD) Bump version
+f170ce5 Allow dist to be built, and add main files to bower.json
+acfabd1 Add grunt build system
+1154e84 (tag: 0.1.0) Add menu-item-content directive
+ea1e153 Import code from eeh-navigation, rename to eeh-menu*
+698a443 Create README.md
+7188bcb Initial commit
