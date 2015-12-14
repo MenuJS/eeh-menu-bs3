@@ -1,6 +1,6 @@
 {
   "name": "eeh-menu-bs3",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Bootstrap 3 AngularJS menu directives.",
   "main": "index.js",
   "scripts": {
