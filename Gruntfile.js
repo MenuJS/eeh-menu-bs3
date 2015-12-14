@@ -12,7 +12,7 @@ module.exports = function (grunt) {
             dist: 'dist',
             libName: 'eeh-menu-bs3',
             docs: 'docs',
-            demo: 'docs/bower_components/eeh-navigation/dist'
+            demo: 'docs/bower_components/eeh-menu-bs3/dist'
         },
         copy: {
             dev: {
@@ -67,13 +67,13 @@ module.exports = function (grunt) {
             }
         },
         ngtemplates: {
-            eehNavigation: {
+            eehMenuBs3: {
                 cwd: '<%= settings.src %>',
                 src: ['**/*.html'],
-                dest: '<%= settings.dist %>/eeh-navigation.tpl.js',
+                dest: '<%= settings.dist %>/eeh-menu-bs3.tpl.js',
                 options: {
                     url: function (url) {
-                        return 'template/eeh-navigation/' + url;
+                        return 'template/eeh-menu-bs3/' + url;
                     }
                 }
             }

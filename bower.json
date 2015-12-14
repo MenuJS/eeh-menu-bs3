@@ -4,8 +4,12 @@
   "authors": [
     "Ethan Hann <ethanhann@gmail.com>"
   ],
-  "description": "",
-  "main": "",
+  "description": "Bootstrap 3 AngularJS menu directives.",
+  "main": [
+    "dist/eeh-menu-bs3.css",
+    "dist/eeh-menu-bs3.js",
+    "dist/eeh-menu-bs3.tpl.js"
+  ],
   "moduleType": [],
   "license": "MIT",
   "ignore": [
@@ -17,5 +21,8 @@
   ],
   "dependencies": {
     "eeh-navigation": ">=5"
+  },
+  "devDependencies": {
+    "bootstrap-sass": ">=3"
   }
 }
