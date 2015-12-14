@@ -56,7 +56,7 @@ module.exports = function (grunt) {
             }
         },
         ngAnnotate: {
-            eehNavigation: {
+            eehMenuBs3: {
                 files: {
                     '<%= settings.build %>/<%= settings.libName %>.annotated.js': [
                         '<%= settings.src %>/eeh-menu-bs3.js',
